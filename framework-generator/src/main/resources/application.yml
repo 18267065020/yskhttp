@@ -13,9 +13,9 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: com.mysql.jdbc.Driver
-        url: jdbc:mysql://192.168.1.40:3306/psychologicallaboratory?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-        username: dba
-        password: hao123456
+        url: jdbc:mysql://localhost:3306/banks?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: root
+        password: sheep
     jackson:
         time-zone: GMT+8
         date-format: yyyy-MM-dd HH:mm:ss
